@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <p>This is a paragraph.</p> <div id="myDiv"></div> <script> // This will throw a ReferenceError because 'myDiv' is accessed before it's in the DOM. document.getElementById('myDiv').innerHTML = 'Hello, world!'; </script> </body></html>
